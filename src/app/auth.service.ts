@@ -5,7 +5,7 @@ import { AuthDataService } from './shared/auth-data.service';
   providedIn: 'root'
 })
 export class AuthService {
-  isLoggedIn: boolean = true
+  isLoggedIn: boolean = false
 
   admin: string = 'admin'
   pass: string = 'pass'

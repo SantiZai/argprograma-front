@@ -6,13 +6,15 @@ import { HomeComponent } from './pages/home/home.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { AuthComponent } from './pages/auth/auth.component';
 import { FormsModule } from '@angular/forms';
+import { NewprojectComponent } from './pages/newproject/newproject.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ProjectsComponent,
-    AuthComponent
+    AuthComponent,
+    NewprojectComponent
   ],
   imports: [
     BrowserModule,
