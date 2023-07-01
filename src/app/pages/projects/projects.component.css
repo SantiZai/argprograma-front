@@ -1,0 +1,30 @@
+.title {
+    color: darkgray;
+    letter-spacing: 1.8px;
+}
+
+.add {
+    background: transparent;
+}
+
+.add:hover {
+    color: darkgray;
+    cursor: pointer;
+}
+
+.project {
+    height: 300px;
+    width: 300px;
+    color: darkgray;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(100, 100, 100, 0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+button {
+    background: darkgrey;
+    color: #333;
+}

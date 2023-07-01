@@ -1,0 +1,13 @@
+<div class="flex flex-col items-center justify-evenly h-full">
+    <div>
+        <span class="title text-5xl font-semibold">Projects</span>
+        <button *ngIf="authService.isLoggedIn" (click)="newProject()" class="add text-5xl text-white pl-5">+</button>
+    </div>
+    <div class="flex flex-wrap gap-5 justify-center">
+        <div class="project flex flex-col justify-between py-3 items-center rounded-2xl font-bold" *ngFor="let project of projects">
+            <span class="text-xl">{{ project.name }}</span>
+            <span>{{ project.description }}</span>
+            <button class="px-8 py-1 rounded-md"><a [href]=project.link>Link</a></button>
+        </div>
+    </div>
+</div>

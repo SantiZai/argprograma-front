@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container-all {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    background: radial-gradient(circle, rgba(64, 64, 64, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background-size: cover;
+}
+
+.navbar-link {
+    color: darkgray;
+}
+
+.navbar-link:hover {
+    color: white;
+    cursor: pointer;
+}
